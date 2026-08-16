@@ -4,6 +4,8 @@ A smooth, open-source SVG liquid wave text loading animation built with pure **H
 
 This project creates a dynamic water wave filling effect inside logo text (or any SVG text element) synchronized with a percentage counter. Perfect for preloaders, splash screens, or brand intros!
 
+🔗 **Live Demo:** [https://ashwinchhimpaxd.github.io/Water-wave-text-fills-animation-/](https://ashwinchhimpaxd.github.io/Water-wave-text-fills-animation-/)
+
 ---
 
 ## ✨ Features
@@ -20,7 +22,7 @@ This project creates a dynamic water wave filling effect inside logo text (or an
 
 1. **Clone or Download the Repository:**
    ```bash
-   git clone https://github.com/your-username/svg-loader.git
+   git clone https://github.com/ashwinchhimpaxd/Water-wave-text-fills-animation-.git
    ```
 2. **Open `index.html`** directly in any web browser to see the live demo animation.
 
