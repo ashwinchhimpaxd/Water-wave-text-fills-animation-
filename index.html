@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeoLeaf Loader</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main class="loader">
+
+        <div class="loader__content">
+            <svg class="loader__logo" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+
+                <defs>
+
+                    <clipPath id="wave-clip" clipPathUnits="userSpaceOnUse">
+                        <path id="wave-path"></path>
+                    </clipPath>
+
+                </defs>
+
+
+                <!-- Gray base -->
+
+                <text class="logo-text logo-text--gray" x="500" y="215" text-anchor="middle">
+                    NeoLeaf
+                </text>
+
+
+                <!-- White fill -->
+
+                <text class="logo-text logo-text--white" x="500" y="215" text-anchor="middle"
+                    clip-path="url(#wave-clip)">
+                    NeoLeaf
+                </text>
+
+            </svg>
+
+
+            <!-- Loading percentage -->
+
+            <div class="loader__progress">
+                loading... <span id="loader-progress">0</span>%
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
